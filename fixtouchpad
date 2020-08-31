@@ -1,0 +1,4 @@
+#!/bin/bash
+[ "$1" = "post" ] && exec modprobe i2c_hid
+[ "$1" = "pre" ] && exec rmmod i2c_hid
+exit 0
