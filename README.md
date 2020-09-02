@@ -12,6 +12,8 @@ This is a bash script for load the Focaltech FTE1200:00 0B05:0201 Touchpad after
 
 - Copy the **fixtouchpad** file to `/lib/systemd/system-sleep/`.
 
+- Replace `i2c_hid`for your touchpad module name in the script.
+
 - The file should be executable. If not, run `chmod +x fixtouchpad`.
 
 - Reboot your machine.
