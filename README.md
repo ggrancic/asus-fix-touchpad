@@ -19,3 +19,5 @@ This is a bash script for load the Focaltech FTE1200:00 0B05:0201 Touchpad after
 - Reboot your machine.
 
 - Try suspending and waking your computer to test.
+
+- You can forward all of the above by runing the bash script included in this repo.
